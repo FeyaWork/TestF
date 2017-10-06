@@ -21,6 +21,7 @@ class ViewController: UIViewController, SlideMenuDelegate {
     }
     
    ///abcfckugikuhoih
+    //s/ghkhgkjhikjhojkpo
    
    
     func addSlideMenuButton(){ /* button in navigation bar  view */
