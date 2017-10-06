@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>TOGGFINAL copy 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>TOGGFINAL copy 4.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>TOGGFINAL copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>TOGGFINAL.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2FCB5CF21F86028C00E2D9A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2FCB5D061F86050E00E2D9A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2FCB5D571F86485A00E2D9A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2FD0F7981F84A24D0071473D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2FD0F7AC1F84A24D0071473D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2FD0F7B71F84A24D0071473D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

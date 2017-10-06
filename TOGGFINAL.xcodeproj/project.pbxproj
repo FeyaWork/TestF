@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FD0F79D1F84A24D0071473D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD0F79C1F84A24D0071473D /* AppDelegate.swift */; };
+		2FD0F79F1F84A24D0071473D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD0F79E1F84A24D0071473D /* ViewController.swift */; };
+		2FD0F7A21F84A24D0071473D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD0F7A01F84A24D0071473D /* Main.storyboard */; };
+		2FD0F7A41F84A24D0071473D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD0F7A31F84A24D0071473D /* Assets.xcassets */; };
+		2FD0F7A71F84A24D0071473D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD0F7A51F84A24D0071473D /* LaunchScreen.storyboard */; };
+		2FD0F7B21F84A24D0071473D /* TOGGFINALTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD0F7B11F84A24D0071473D /* TOGGFINALTests.swift */; };
+		2FD0F7BD1F84A24D0071473D /* TOGGFINALUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD0F7BC1F84A24D0071473D /* TOGGFINALUITests.swift */; };
+		2FD0F7CB1F84A2AB0071473D /* xyz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD0F7CA1F84A2AB0071473D /* xyz.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FD0F7AE1F84A24D0071473D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FD0F7911F84A24C0071473D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FD0F7981F84A24D0071473D;
+			remoteInfo = TOGGFINAL;
+		};
+		2FD0F7B91F84A24D0071473D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FD0F7911F84A24C0071473D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FD0F7981F84A24D0071473D;
+			remoteInfo = TOGGFINAL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FCB5D651F86485B00E2D9A7 /* TOGGFINAL copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TOGGFINAL copy-Info.plist"; path = "/Users/cydeveloper/Desktop/Policaro/TOGGFINAL/TOGGFINAL copy-Info.plist"; sourceTree = "<absolute>"; };
+		2FD0F7991F84A24D0071473D /* TOGGFINAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOGGFINAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD0F79C1F84A24D0071473D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FD0F79E1F84A24D0071473D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FD0F7A11F84A24D0071473D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FD0F7A31F84A24D0071473D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FD0F7A61F84A24D0071473D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FD0F7A81F84A24D0071473D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FD0F7AD1F84A24D0071473D /* TOGGFINALTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOGGFINALTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD0F7B11F84A24D0071473D /* TOGGFINALTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOGGFINALTests.swift; sourceTree = "<group>"; };
+		2FD0F7B31F84A24D0071473D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FD0F7B81F84A24D0071473D /* TOGGFINALUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOGGFINALUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD0F7BC1F84A24D0071473D /* TOGGFINALUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOGGFINALUITests.swift; sourceTree = "<group>"; };
+		2FD0F7BE1F84A24D0071473D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FD0F7CA1F84A2AB0071473D /* xyz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xyz.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FD0F7961F84A24D0071473D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD0F7AA1F84A24D0071473D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD0F7B51F84A24D0071473D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD0F7901F84A24C0071473D = {
+			isa = PBXGroup;
+			children = (
+				2FD0F79B1F84A24D0071473D /* TOGGFINAL */,
+				2FD0F7B01F84A24D0071473D /* TOGGFINALTests */,
+				2FD0F7BB1F84A24D0071473D /* TOGGFINALUITests */,
+				2FD0F79A1F84A24D0071473D /* Products */,
+				2FCB5D651F86485B00E2D9A7 /* TOGGFINAL copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		2FD0F79A1F84A24D0071473D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FD0F7991F84A24D0071473D /* TOGGFINAL.app */,
+				2FD0F7AD1F84A24D0071473D /* TOGGFINALTests.xctest */,
+				2FD0F7B81F84A24D0071473D /* TOGGFINALUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FD0F79B1F84A24D0071473D /* TOGGFINAL */ = {
+			isa = PBXGroup;
+			children = (
+				2FD0F79C1F84A24D0071473D /* AppDelegate.swift */,
+				2FD0F79E1F84A24D0071473D /* ViewController.swift */,
+				2FD0F7A01F84A24D0071473D /* Main.storyboard */,
+				2FD0F7A31F84A24D0071473D /* Assets.xcassets */,
+				2FD0F7A51F84A24D0071473D /* LaunchScreen.storyboard */,
+				2FD0F7A81F84A24D0071473D /* Info.plist */,
+				2FD0F7CA1F84A2AB0071473D /* xyz.swift */,
+			);
+			path = TOGGFINAL;
+			sourceTree = "<group>";
+		};
+		2FD0F7B01F84A24D0071473D /* TOGGFINALTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FD0F7B11F84A24D0071473D /* TOGGFINALTests.swift */,
+				2FD0F7B31F84A24D0071473D /* Info.plist */,
+			);
+			path = TOGGFINALTests;
+			sourceTree = "<group>";
+		};
+		2FD0F7BB1F84A24D0071473D /* TOGGFINALUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FD0F7BC1F84A24D0071473D /* TOGGFINALUITests.swift */,
+				2FD0F7BE1F84A24D0071473D /* Info.plist */,
+			);
+			path = TOGGFINALUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FD0F7981F84A24D0071473D /* TOGGFINAL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD0F7C11F84A24D0071473D /* Build configuration list for PBXNativeTarget "TOGGFINAL" */;
+			buildPhases = (
+				2FD0F7951F84A24D0071473D /* Sources */,
+				2FD0F7961F84A24D0071473D /* Frameworks */,
+				2FD0F7971F84A24D0071473D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TOGGFINAL;
+			productName = TOGGFINAL;
+			productReference = 2FD0F7991F84A24D0071473D /* TOGGFINAL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FD0F7AC1F84A24D0071473D /* TOGGFINALTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD0F7C41F84A24D0071473D /* Build configuration list for PBXNativeTarget "TOGGFINALTests" */;
+			buildPhases = (
+				2FD0F7A91F84A24D0071473D /* Sources */,
+				2FD0F7AA1F84A24D0071473D /* Frameworks */,
+				2FD0F7AB1F84A24D0071473D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FD0F7AF1F84A24D0071473D /* PBXTargetDependency */,
+			);
+			name = TOGGFINALTests;
+			productName = TOGGFINALTests;
+			productReference = 2FD0F7AD1F84A24D0071473D /* TOGGFINALTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FD0F7B71F84A24D0071473D /* TOGGFINALUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD0F7C71F84A24D0071473D /* Build configuration list for PBXNativeTarget "TOGGFINALUITests" */;
+			buildPhases = (
+				2FD0F7B41F84A24D0071473D /* Sources */,
+				2FD0F7B51F84A24D0071473D /* Frameworks */,
+				2FD0F7B61F84A24D0071473D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FD0F7BA1F84A24D0071473D /* PBXTargetDependency */,
+			);
+			name = TOGGFINALUITests;
+			productName = TOGGFINALUITests;
+			productReference = 2FD0F7B81F84A24D0071473D /* TOGGFINALUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FD0F7911F84A24C0071473D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Developer;
+				TargetAttributes = {
+					2FD0F7981F84A24D0071473D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					2FD0F7AC1F84A24D0071473D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FD0F7981F84A24D0071473D;
+					};
+					2FD0F7B71F84A24D0071473D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FD0F7981F84A24D0071473D;
+					};
+				};
+			};
+			buildConfigurationList = 2FD0F7941F84A24C0071473D /* Build configuration list for PBXProject "TOGGFINAL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FD0F7901F84A24C0071473D;
+			productRefGroup = 2FD0F79A1F84A24D0071473D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FD0F7981F84A24D0071473D /* TOGGFINAL */,
+				2FD0F7AC1F84A24D0071473D /* TOGGFINALTests */,
+				2FD0F7B71F84A24D0071473D /* TOGGFINALUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FD0F7971F84A24D0071473D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD0F7A71F84A24D0071473D /* LaunchScreen.storyboard in Resources */,
+				2FD0F7A41F84A24D0071473D /* Assets.xcassets in Resources */,
+				2FD0F7A21F84A24D0071473D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD0F7AB1F84A24D0071473D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD0F7B61F84A24D0071473D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FD0F7951F84A24D0071473D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD0F79F1F84A24D0071473D /* ViewController.swift in Sources */,
+				2FD0F79D1F84A24D0071473D /* AppDelegate.swift in Sources */,
+				2FD0F7CB1F84A2AB0071473D /* xyz.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD0F7A91F84A24D0071473D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD0F7B21F84A24D0071473D /* TOGGFINALTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD0F7B41F84A24D0071473D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD0F7BD1F84A24D0071473D /* TOGGFINALUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FD0F7AF1F84A24D0071473D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FD0F7981F84A24D0071473D /* TOGGFINAL */;
+			targetProxy = 2FD0F7AE1F84A24D0071473D /* PBXContainerItemProxy */;
+		};
+		2FD0F7BA1F84A24D0071473D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FD0F7981F84A24D0071473D /* TOGGFINAL */;
+			targetProxy = 2FD0F7B91F84A24D0071473D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FD0F7A01F84A24D0071473D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD0F7A11F84A24D0071473D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FD0F7A51F84A24D0071473D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD0F7A61F84A24D0071473D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FD0F7BF1F84A24D0071473D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FD0F7C01F84A24D0071473D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FD0F7C21F84A24D0071473D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TOGGFINAL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cycloides.TOGGFINAL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2FD0F7C31F84A24D0071473D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TOGGFINAL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cycloides.TOGGFINAL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2FD0F7C51F84A24D0071473D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TOGGFINALTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cycloides.TOGGFINALTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TOGGFINAL.app/TOGGFINAL";
+			};
+			name = Debug;
+		};
+		2FD0F7C61F84A24D0071473D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TOGGFINALTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cycloides.TOGGFINALTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TOGGFINAL.app/TOGGFINAL";
+			};
+			name = Release;
+		};
+		2FD0F7C81F84A24D0071473D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TOGGFINALUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cycloides.TOGGFINALUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TOGGFINAL;
+			};
+			name = Debug;
+		};
+		2FD0F7C91F84A24D0071473D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TOGGFINALUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cycloides.TOGGFINALUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TOGGFINAL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FD0F7941F84A24C0071473D /* Build configuration list for PBXProject "TOGGFINAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD0F7BF1F84A24D0071473D /* Debug */,
+				2FD0F7C01F84A24D0071473D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD0F7C11F84A24D0071473D /* Build configuration list for PBXNativeTarget "TOGGFINAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD0F7C21F84A24D0071473D /* Debug */,
+				2FD0F7C31F84A24D0071473D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD0F7C41F84A24D0071473D /* Build configuration list for PBXNativeTarget "TOGGFINALTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD0F7C51F84A24D0071473D /* Debug */,
+				2FD0F7C61F84A24D0071473D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD0F7C71F84A24D0071473D /* Build configuration list for PBXNativeTarget "TOGGFINALUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD0F7C81F84A24D0071473D /* Debug */,
+				2FD0F7C91F84A24D0071473D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FD0F7911F84A24C0071473D /* Project object */;
+}
